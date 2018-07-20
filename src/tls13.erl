@@ -24,7 +24,6 @@
 -module(tls13).
 
 -export([listen/5, send/2, recv/2, close/1, connection_information/1]).
--export([test/0, test/1]).
 
 -opaque tls13_ref() :: pid().
 
